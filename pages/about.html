@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Akashic Intelligence</title>
+  <link rel="stylesheet" href="../assets/base.css">
+  <link rel="stylesheet" href="../assets/about.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="page-transition"></div>
+
+  <header id="header">
+    <div class="container">
+      <nav>
+        <a href="../index.html" class="logo">Akashic Intelligence Group</a>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay">
+    <button class="menu-close" id="menuClose">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="menu-overlay-content">
+      <div class="menu-overlay-links">
+        <a href="index.html" class="menu-overlay-link">Home</a>
+        <a href="ai-strategy.html" class="menu-overlay-link">AI Blueprint</a>
+        <a href="process.html" class="menu-overlay-link">Process</a>
+        <a href="about.html" class="menu-overlay-link">About</a>
+        <a href="resources.html" class="menu-overlay-link">Resources</a>
+        <a href="contact.html" class="menu-overlay-link">Contact</a>
+      </div>
+      <div class="menu-overlay-footer">
+        <p>hello@akashicintelligence.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="about-hero">
+      <div class="container">
+        <div class="about-hero-content">
+          <div class="service-tag">WHO WE ARE</div>
+          <h1 class="service-title">BUILT FOR EXECUTION</h1>
+          <p class="service-headline">We don't sell AI theory. We architect and deploy the systems that run companies 24/7.</p>
+          <p class="service-subtitle">Akashic Intelligence is a team of engineers, operators, and strategists obsessed with one thing: turning AI into measurable business outcomes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">THE MISSION</h2>
+        <div class="service-text-block">
+          <p>Most companies waste months talking about AI while their competitors ship. We exist to kill that gap.</p>
+          <p>We design the complete AI architecture for your operation, then build the agents that execute it. No slides. No 6-month discovery phases. Just blueprints that ship and systems that run.</p>
+          <p class="text-emphasis">If it doesn't reduce cost, increase speed, or unlock revenue, we don't build it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-dark">
+      <div class="container">
+        <h2 class="section-title">HOW WE OPERATE</h2>
+        <div class="service-columns-centered">
+          <div class="service-column">
+            <h3 class="column-title">What we believe:</h3>
+            <ul class="service-list-centered">
+              <li>Execution beats strategy decks</li>
+              <li>AI without integration is a toy</li>
+              <li>Speed compounds. Waiting kills</li>
+              <li>Technical depth matters more than buzzwords</li>
+              <li>Your team should understand what we built</li>
+              <li>Measure everything. Ship fast. Iterate faster</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 class="column-title">What we don't do:</h3>
+            <ul class="service-list-centered">
+              <li>Hourly consulting with no deliverable</li>
+              <li>Generic ChatGPT wrappers</li>
+              <li>6-month roadmaps that never ship</li>
+              <li>Black-box solutions your team can't maintain</li>
+              <li>Theory without code</li>
+              <li>Promises we can't spec out day one</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">BY THE NUMBERS</h2>
+        <div class="metrics-grid">
+          <div class="metric-card reveal-item">
+            <div class="metric-number"><span class="counter" data-target="50">0</span>+</div>
+            <div class="metric-label">Blueprints Delivered</div>
+          </div>
+          <div class="metric-card reveal-item">
+            <div class="metric-number"><span class="counter" data-target="14">0</span></div>
+            <div class="metric-label">Days Average to Blueprint</div>
+          </div>
+          <div class="metric-card reveal-item">
+            <div class="metric-number"><span class="counter" data-target="98">0</span>%</div>
+            <div class="metric-label">Client Retention</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="logo">Akashic Intelligence Group</div>
+          <p>We design and deploy AI systems that run your business.</p>
+        </div>
+        <div class="footer-right">
+          <a href="contact.html">Start →</a>
+        </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Akashic Intelligence Group. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../functions/base.js"></script>
+  <script src="../functions/about.js"></script>
+</body>
+</html>

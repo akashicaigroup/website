@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>AI Strategy | AI Operations Blueprint - Akashic Intelligence</title>
+  <link rel="stylesheet" href="../assets/base.css">
+   <link rel="stylesheet" href="../assets/ai-strategy.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="page-transition"></div>
+
+  <header id="header">
+    <div class="container">
+      <nav>
+        <a href="../index.html" class="logo">Akashic Intelligence Group</a>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+
+</header>
+
+  <div class="menu-overlay" id="menuOverlay">
+    <button class="menu-close" id="menuClose">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="menu-overlay-content">
+      <div class="menu-overlay-links">
+        <a href="index.html" class="menu-overlay-link">Home</a>
+        <a href="ai-strategy.html" class="menu-overlay-link">AI Blueprint</a>
+        <a href="process.html" class="menu-overlay-link">Process</a>
+        <a href="about.html" class="menu-overlay-link">About</a>
+        <a href="resources.html" class="menu-overlay-link">Resources</a>
+        <a href="contact.html" class="menu-overlay-link">Contact</a>
+      </div>
+      <div class="menu-overlay-footer">
+        <p>hello@akashicintelligence.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="service-hero">
+      <div class="container">
+        <div class="service-hero-content">
+          <div class="service-tag">AI ARCHITECTURE</div>
+          <h1 class="service-title">AI OPERATIONS BLUEPRINT</h1>
+          <p class="service-headline">The complete AI system designed for your business. Not slides. Not theory. The actual blueprint.</p>
+          <p class="service-subtitle">We design the full AI architecture for your operation — every agent, every integration, every workflow — with specs detailed enough to start building the day you receive it.</p>
+          <a href="contact.html" class="btn-primary">Book a discovery call →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">THE PROBLEM</h2>
+        <div class="service-text-block">
+          <p>Most companies know AI can transform their operation. The problem is they don't know where to start, what to build first, or what it will actually cost.</p>
+          <p>They hire consultants who deliver slides. They search YouTube and drown in theory. They try random tools without a strategy and waste months going in circles.</p>
+          <p>Meanwhile, the companies that figured it out already have AI agents handling their operations 24/7. The gap — operational and competitive — grows every month without a plan.</p>
+          <p class="text-emphasis">Companies that build AI without a blueprint spend $50K-$200K on implementations they end up scrapping. The AI Operations Blueprint exists so that doesn't happen to yours.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT IT IS -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">WHAT IT IS</h2>
+        <div class="service-text-block">
+          <p>The AI Operations Blueprint is the complete design of how your company integrates AI — the system architecture, the specific AI agents for each process, the integrations between tools, and the implementation roadmap prioritized by ROI.</p>
+          <p>This isn't a generic strategy deck. It's the technical blueprint your team needs to start building.</p>
+        </div>
+        
+        <div class="service-columns">
+          <div class="service-column">
+            <h3 class="column-title">What it is:</h3>
+            <ul class="service-list">
+              <li>Complete AI architecture designed for your operation</li>
+              <li>Specific AI agents for each process in your business</li>
+              <li>Executable technical specifications — not slides</li>
+              <li>Defined process, fixed price, clear timeline</li>
+              <li>100% remote, 2-4 weeks start to finish</li>
+              <li>For any company, any size, any industry</li>
+              <li>No technical team required to get started</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 class="column-title">What it's not:</h3>
+            <ul class="service-list">
+              <li>A course or general AI training</li>
+              <li>Hourly consulting with no deliverable</li>
+              <li>A slide deck with vague recommendations</li>
+              <li>Implementation (that's a separate product)</li>
+              <li>A generic template applied to everyone</li>
+              <li>Theory without execution specs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI AGENTS -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">AI AGENTS — THE CORE OF THE BLUEPRINT</h2>
+        <div class="service-text-block">
+          <p>We design AI agents specific to each process in your business — no limits on industry or department. Every agent is tailor-made for your workflow, your stack, and your team. The number of agents isn't predefined — we identify and maximize every opportunity in your operation.</p>
+        </div>
+
+        <div class="agents-table">
+          <div class="agent-row">
+            <div class="agent-name">Autonomous Sales Agent (SDR)</div>
+            <div class="agent-desc">Receives new leads from any source, responds in under 90 seconds, qualifies via email/chat/voice, scores intent, updates CRM, and books meetings on the rep's calendar — all without human intervention.</div>
+            <div class="agent-impact"><strong>Impact:</strong> 3x more qualified leads without adding headcount. Speed-to-lead from hours to seconds.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">AI Customer Support Agent</div>
+            <div class="agent-desc">Handles 80% of inbound support queries using your company's knowledge base. Resolves common issues, escalates complex cases with full context, tracks tickets, and follows up automatically. Works 24/7 across chat, email, and voice.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Support costs cut by 40-60%. Response time from hours to seconds.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Autonomous Accounting Agent</div>
+            <div class="agent-desc">Processes vendor invoices, reconciles bank accounts, categorizes expenses, flags anomalies, and generates monthly close — integrated with your existing accounting system. Only notifies on exceptions.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Monthly close from 3 days to 4 hours. Near-zero data entry errors.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Content Production Agent</div>
+            <div class="agent-desc">Takes a topic or brief, researches, drafts blog posts, generates social copy, creates email sequences, and schedules distribution. Maintains brand voice and style guidelines automatically.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Content output 5x. Consistent publishing without hiring writers.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Recruitment Agent</div>
+            <div class="agent-desc">Sources candidates from multiple channels, screens resumes against requirements, conducts initial chat interviews, scores fit, and schedules qualified candidates with hiring managers. Updates ATS automatically.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Time-to-hire reduced by 50%. Recruiters focus only on final interviews.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Operations Coordinator Agent</div>
+            <div class="agent-desc">Monitors project status across tools, identifies bottlenecks, sends reminders, updates stakeholders, and generates weekly ops reports. Flags delays before they become problems.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Project delays cut by 30%. Real-time visibility without status meetings.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Data Analysis Agent</div>
+            <div class="agent-desc">Connects to your databases, runs scheduled reports, identifies anomalies, generates insights in plain English, and alerts the team when KPIs deviate. No SQL required.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Decision time from days to hours. Proactive alerts instead of reactive reports.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Inventory & Fulfillment Agent</div>
+            <div class="agent-desc">Tracks stock levels across locations, predicts reorder points, creates purchase orders, updates suppliers, and syncs with your e-commerce/ERP. Flags discrepancies automatically.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Stockouts reduced by 80%. Zero manual PO creation.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Onboarding Agent</div>
+            <div class="agent-desc">Guides new employees or customers through onboarding flows, sends documents, tracks completion, answers FAQs, and escalates blocks. Personalizes sequence by role or customer type.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Onboarding time cut in half. Completion rates above 95%.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Legal Review Agent</div>
+            <div class="agent-desc">Reviews contracts against your playbook, flags risky clauses, suggests redlines, and routes to legal only when needed. Maintains version control and approval workflows.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Contract turnaround from 5 days to 24 hours. Legal focuses on complex cases.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Marketing Campaign Agent</div>
+            <div class="agent-desc">Builds campaigns from brief to launch: writes copy, generates images, sets up ads, defines audiences, and monitors performance. Pauses underperforming variants automatically.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Campaign launch time from 2 weeks to 2 days. ROAS improvement through auto-optimization.</div>
+          </div>
+
+          <div class="agent-row">
+            <div class="agent-name">Knowledge Base Agent</div>
+            <div class="agent-desc">Captures information from Slack, email, and meetings. Organizes it, keeps docs updated, and answers team questions instantly. Prevents knowledge loss when people leave.</div>
+            <div class="agent-impact"><strong>Impact:</strong> Time searching for info cut by 70%. Onboarding new hires in days not weeks.</div>
+          </div>
+          
+          <div class="agent-row agent-custom">
+            <div class="agent-name">[Your process here]</div>
+            <div class="agent-desc">Any process in your company can have its own agent — regardless of department, industry, or complexity. We design it specifically for how your business works.</div>
+            <div class="agent-impact"><strong>Impact:</strong> We define the concrete impact during discovery.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SYSTEM ARCHITECTURE -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">SYSTEM ARCHITECTURE</h2>
+        <div class="service-text-block">
+          <p>The Blueprint isn't a list of tools. It's the complete architecture design: how agents connect to each other, how information flows, where the human intervenes, and how the system scales as the company grows.</p>
+        </div>
+        <div class="architecture-points">
+          <div class="arch-point">
+            <h3>Architecture design</h3>
+            <p>Complete map of how all agents interact, data flows between systems, and dependencies between automations.</p>
+          </div>
+          <div class="arch-point">
+            <h3>Agent-to-agent integration</h3>
+            <p>Agents don't work in silos. They're designed to communicate and pass information between each other, creating fully automated workflows.</p>
+          </div>
+          <div class="arch-point">
+            <h3>The Blueprint as deliverable</h3>
+            <p>The architectural plan that defines exactly what gets built, how, and in what order.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE DIFFERENCE -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">THE DIFFERENCE</h2>
+        <div class="service-text-block">
+          <p>Most "AI consulting" gives you a 40-slide deck with generic recommendations: "use chatbots", "automate reporting", "try ChatGPT". You pay $25K and get homework.</p>
+          <p>The AI Operations Blueprint is the opposite. We don't tell you what to do — we design exactly how to do it. Every agent comes with the specific tool, the exact prompt architecture, the data schema, the integration points, and the failure handling. Your team or our team can start building day one.</p>
+          <p class="text-emphasis">Consultants sell time. We deliver the blueprint.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROI TABLE -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">ROI — WHAT THIS ACTUALLY SAVES</h2>
+        <div class="service-text-block">
+          <p>Numbers from implementations across 30+ companies. Your ROI depends on size and processes, but this is the range:</p>
+        </div>
+        <div class="table-wrapper">
+          <table class="roi-table">
+            <thead>
+              <tr>
+                <th>Department</th>
+                <th>Before AI</th>
+                <th>After Blueprint</th>
+                <th>Annual Savings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sales SDR</td>
+                <td>2 reps @ $60K/yr = $120K</td>
+                <td>1 rep + Agent = $60K + $6K</td>
+                <td>$54K + 3x more leads</td>
+              </tr>
+              <tr>
+                <td>Support</td>
+                <td>3 agents @ $45K/yr = $135K</td>
+                <td>1 agent + AI = $45K + $8K</td>
+                <td>$82K + 24/7 coverage</td>
+              </tr>
+              <tr>
+                <td>Accounting</td>
+                <td>1 bookkeeper @ $55K + 3 days close</td>
+                <td>Agent @ $4K/yr + 4hr close</td>
+                <td>$51K + 2.5 days saved/month</td>
+              </tr>
+              <tr>
+                <td>Content/Marketing</td>
+                <td>1 writer @ $70K + agency $30K</td>
+                <td>Agent @ $5K/yr</td>
+                <td>$95K + 5x output</td>
+              </tr>
+              <tr>
+                <td>Operations</td>
+                <td>1 ops manager @ $80K + meetings</td>
+                <td>Agent @ $6K/yr</td>
+                <td>$74K + real-time visibility</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="service-text-block">
+          <p class="text-emphasis">Typical payback: 2-4 months. Most clients save $200K-$500K in year one.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW WE COMPARE -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">HOW WE COMPARE</h2>
+        <div class="table-wrapper">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Generic AI Consultants</th>
+                <th>AI Courses/Training</th>
+                <th>Akashic Blueprint</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Deliverable</td>
+                <td>Slide deck</td>
+                <td>Videos + PDFs</td>
+                <td>Technical specs ready to build</td>
+              </tr>
+              <tr>
+                <td>Timeline</td>
+                <td>8-12 weeks</td>
+                <td>Self-paced</td>
+                <td>2-4 weeks fixed</td>
+              </tr>
+              <tr>
+                <td>Price</td>
+                <td>$50K-$150K</td>
+                <td>$2K-$10K</td>
+                <td>$8K-$25K fixed</td>
+              </tr>
+              <tr>
+                <td>Customization</td>
+                <td>Templates</td>
+                <td>None</td>
+                <td>100% specific to your business</td>
+              </tr>
+              <tr>
+                <td>Implementation</td>
+                <td>Not included</td>
+                <td>You figure it out</td>
+                <td>Specs so clear you can build tomorrow</td>
+              </tr>
+              <tr>
+                <td>ROI Clarity</td>
+                <td>Vague</td>
+                <td>None</td>
+                <td>Calculated per agent before you start</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO THIS IS FOR -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">WHO THIS IS FOR</h2>
+        <div class="service-columns">
+          <div class="service-column">
+            <h3 class="column-title">This is for you if:</h3>
+            <ul class="service-list">
+              <li>You're spending $100K+/year on manual work that AI could handle</li>
+              <li>You know AI can help but don't know where to start</li>
+              <li>You've tried random tools without a strategy and wasted time</li>
+              <li>You need a technical plan, not more theory</li>
+              <li>You want to move fast but avoid expensive mistakes</li>
+              <li>Your competitors are already implementing and you need to catch up</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 class="column-title">This is NOT for you if:</h3>
+            <ul class="service-list">
+              <li>You're looking for a $500 course</li>
+              <li>You want someone to do the implementation for you — that's a separate service</li>
+              <li>Your processes change every week and nothing is documented</li>
+              <li>You're not ready to change how your team works</li>
+              <li>You just want to "learn about AI" without building anything</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERABLES -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">THE DELIVERABLES</h2>
+        <div class="service-text-block">
+          <p>At the end of the process, you receive a complete workspace with every document organized — ready to start implementing the next day.</p>
+        </div>
+        
+        <div class="deliverables-grid">
+          <div class="deliverable-card">
+            <div class="deliverable-num">01</div>
+            <h3>AI Readiness Score</h3>
+            <p>0-100 score across 5 dimensions. A map of where your company stands today and what's needed to implement AI successfully.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">02</div>
+            <h3>AI System Architecture</h3>
+            <p>Complete design of how agents connect, how information flows, and how the system scales. The blueprint of what gets built.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">03</div>
+            <h3>Process Maps: Current vs. Future</h3>
+            <p>How each department operates today with friction points marked — and how it looks redesigned with AI agents integrated.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">04</div>
+            <h3>AI Agent Spec Sheets</h3>
+            <p>One document per agent: exact tool, complete technical flow, monthly cost, projected ROI, human-in-the-loop requirements, and KPIs.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">05</div>
+            <h3>ROI-Prioritized Backlog</h3>
+            <p>Every agent ranked by impact versus effort. Your team knows exactly what to build first for the fastest results.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">06</div>
+            <h3>Quick Wins Playbook</h3>
+            <p>The highest-impact, lowest-complexity agents with step-by-step instructions. Implementable in the first 2 weeks after delivery.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">07</div>
+            <h3>Tech Stack Definition</h3>
+            <p>For every category: tools evaluated, final recommendation, and why. No more months spent evaluating platforms.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">08</div>
+            <h3>12-Month AI Cost Model</h3>
+            <p>Projected monthly cost of every agent once implemented, plus operational savings by department. Clear ROI before approving any spend.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">09</div>
+            <h3>Phased Roadmap</h3>
+            <p>Implementation plan in 3 phases with concrete milestones and criteria for advancing between phases.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">10</div>
+            <h3>AI Governance Framework</h3>
+            <p>Who approves which agent, what data each tool can access, human-in-the-loop policies, and an adoption guide for the team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">HOW IT WORKS</h2>
+        <p class="section-subtitle">Three phases. 2-4 weeks. 100% remote. You know exactly where you are at every stage.</p>
+        
+        <div class="process-timeline">
+          <div class="process-phase">
+            <div class="phase-num">Phase 1</div>
+            <h3>Discovery & Audit</h3>
+            <p>Video sessions with the owner and each key area. We map the complete operation, calculate the AI Readiness Score across 5 dimensions, and identify every process with AI agent potential.</p>
+          </div>
+          <div class="process-phase">
+            <div class="phase-num">Phase 2</div>
+            <h3>AI Architecture & Blueprint Design</h3>
+            <p>We design the complete AI system for your company — every agent, their connections, data flows, and integrations. Each agent gets a full technical spec. You review and validate the draft before we finalize.</p>
+          </div>
+          <div class="process-phase">
+            <div class="phase-num">Phase 3</div>
+            <h3>Delivery & Handoff</h3>
+            <p>The complete Blueprint delivered in a structured Notion workspace, executive PDF, and video walkthroughs. Delivery session with the owner and technical session with whoever implements. 14 days of support included.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">How is this different from hiring a consultant?</button>
+            <div class="faq-answer">
+              <p>Consultants sell time and deliver slides. We deliver the complete technical blueprint with specs detailed enough to start building. Fixed price, fixed timeline, no hourly billing. You know exactly what you're getting before we start.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What if we don't have a technical team?</button>
+            <div class="faq-answer">
+              <p>You don't need one to get the Blueprint. The specs are written so a no-code builder, freelancer, or our implementation team can execute. Many clients implement the Quick Wins themselves in week one.</p>
+            </div>
+          <div class="faq-item">
+            <button class="faq-question">How long does it take?</button>
+            <div class="faq-answer">
+              <p>2-4 weeks from kickoff to delivery. Phase 1 is 3-5 days. Phase 2 is 7-10 days. Phase 3 is 3-5 days. 100% remote via video calls and async work.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What does it cost?</button>
+            <div class="faq-answer">
+              <p>Fixed price based on company size and complexity: $15K-$45K. You know the exact price after the free discovery call. No surprises, no scope creep, no hourly billing.</p>
+            </div>
+          <div class="faq-item">
+            <button class="faq-question">Do you implement it too?</button>
+            <div class="faq-answer">
+              <p>The Blueprint is the design. Implementation is a separate service. Many clients implement themselves or with freelancers using our specs. If you want us to build it, we quote that separately after you have the Blueprint.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What if our processes are a mess?</button>
+            <div class="faq-answer">
+              <p>Perfect. Phase 1 includes mapping current state and identifying friction. We design the future state with AI agents. You don't need perfect processes to start — the Blueprint shows you what to fix first.</p>
+            </div>
+          <div class="faq-item">
+            <button class="faq-question">How many agents do we get?</button>
+            <div class="faq-answer">
+              <p>There's no limit. We identify every process with AI potential in your operation. Some companies have 5 agents, others have 30. The Blueprint includes specs for all of them, prioritized by ROI.</p>
+            </div>
+          <div class="faq-item">
+            <button class="faq-question">What if we need changes after delivery?</button>
+            <div class="faq-answer">
+              <p>You get 14 days of support included for questions and clarifications. After that, updates are billed hourly or you can buy a Blueprint refresh if your operation changes significantly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="service-cta">
+      <div class="container">
+        <h2>GET STARTED</h2>
+        <div class="cta-steps">
+          <div class="cta-step">
+            <div class="step-num">1</div>
+            <h3>Free discovery call</h3>
+            <p>30 minutes. We map your operation, calculate the estimated ROI specific to your company, and define which Blueprint tier fits. No commitment.</p>
+          </div>
+          <div class="cta-step">
+            <div class="step-num">2</div>
+            <h3>Personalized proposal in 24 hours</h3>
+            <p>You receive a proposal with the projected ROI for your company, the processes and agents identified on the call, and the exact price.</p>
+          </div>
+          <div class="cta-step">
+            <div class="step-num">3</div>
+            <h3>We start — results in weeks</h3>
+            <p>With the proposal approved, we send the complete project schedule. In 2-4 weeks you have the complete AI architecture and specs for all agents ready to implement.</p>
+          </div>
+        </div>
+        <a href="contact.html" class="btn-primary btn-large">Book a discovery call →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3 class="footer-logo">AKASHIC INTELLIGENCE</h3>
+          <p>AI operations architecture for companies that execute.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="ai-strategy.html">AI Strategy</a></li>
+            <li><a href="ai-implementation.html">AI Implementation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Get in touch</a></li>
+            <li><a href="mailto:hello@akashicintelligence.com">hello@akashicintelligence.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Akashic Intelligence. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../functions/script.js"></script>
+   <script src="../functions/base.js"></script>
+</body>
+</html>

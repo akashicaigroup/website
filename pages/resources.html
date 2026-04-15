@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources - Akashic Intelligence Group</title>
+  <link rel="stylesheet" href="../assets/base.css">
+  <link rel="stylesheet" href="../assets/resources.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="page-transition"></div>
+
+  <header id="header">
+    <div class="container">
+      <nav>
+        <a href="../index.html" class="logo">Akashic Intelligence Group</a>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay">
+    <button class="menu-close" id="menuClose">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="menu-overlay-content">
+      <div class="menu-overlay-links">
+        <a href="index.html" class="menu-overlay-link">Home</a>
+        <a href="ai-strategy.html" class="menu-overlay-link">AI Blueprint</a>
+        <a href="process.html" class="menu-overlay-link">Process</a>
+        <a href="about.html" class="menu-overlay-link">About</a>
+        <a href="resources.html" class="menu-overlay-link">Resources</a>
+        <a href="contact.html" class="menu-overlay-link">Contact</a>
+      </div>
+      <div class="menu-overlay-footer">
+        <p>hello@akashicintelligence.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="eyebrow scramble-text" data-text="Resources">Resources</div>
+          <h1>Everything we know about building AI-native businesses.</h1>
+          <p>No hype. No fluff. Just patterns, frameworks, and reality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources-hub">
+      <div class="container">
+
+        <!-- HUB NAVIGATION: 4 CARDS QUE LLEVAN A PÁGINAS -->
+        <div class="hub-nav">
+          <a href="resources/articles.html" class="hub-card" data-tilt>
+            <div class="card-glow"></div>
+            <div class="hub-card-content">
+              <div class="hub-card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <h3>Articles</h3>
+              <p>Strategic insights and mental models for AI-native operators.</p>
+              <span class="hub-card-count">12 Articles</span>
+            </div>
+            <div class="hub-card-arrow">→</div>
+          </a>
+
+          <a href="resources/guides.html" class="hub-card" data-tilt>
+            <div class="card-glow"></div>
+            <div class="hub-card-content">
+              <div class="hub-card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <h3>Guides</h3>
+              <p>Actionable frameworks and templates you can use today.</p>
+              <span class="hub-card-count">6 Guides</span>
+            </div>
+            <div class="hub-card-arrow">→</div>
+          </a>
+
+          <a href="resources/case-studies.html" class="hub-card" data-tilt>
+            <div class="card-glow"></div>
+            <div class="hub-card-content">
+              <div class="hub-card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <h3>Case Studies</h3>
+              <p>Real implementations. Real numbers. Real lessons learned.</p>
+              <span class="hub-card-count">8 Cases</span>
+            </div>
+            <div class="hub-card-arrow">→</div>
+          </a>
+
+          <button class="hub-card newsletter-trigger" id="newsletterTrigger" data-tilt>
+            <div class="card-glow"></div>
+            <div class="hub-card-content">
+              <div class="hub-card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2.9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <h3>Newsletter</h3>
+              <p>One email per month. Patterns we see across real AI implementations.</p>
+              <span class="hub-card-count">Join 2,400+</span>
+            </div>
+            <div class="hub-card-arrow">→</div>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <h2 class="reveal-text">Reading isn't building.</h2>
+        <p class="reveal-text">Ready to diagnose your reality?</p>
+        <a href="contact.html" class="btn btn-primary magnetic">Start the conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- NEWSLETTER MODAL -->
+  <div class="newsletter-modal" id="newsletterModal">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="modal-inner">
+        <div class="modal-header">
+          <div class="modal-icon">✦</div>
+          <h3>The Akashic Brief</h3>
+          <p>One email per month. No spam. Just patterns we see across real AI implementations.</p>
+        </div>
+        <form id="newsletterForm">
+          <div class="form-group">
+            <input type="email" id="newsletterEmail" placeholder="your@email.com" required>
+            <button type="submit" class="btn-submit">
+              <span class="btn-text">Subscribe</span>
+              <span class="btn-loader"></span>
+            </button>
+          </div>
+          <p class="form-note">Join 2,400+ operators. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Akashic Intelligence Group</div>
+        <div class="footer-links">
+          <a href="ai-strategy.html">AI Blueprint</a>
+          <a href="process.html">Process</a>
+          <a href="about.html">About</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-copy">&copy; <span id="year"></span> Akashic Intelligence Group</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../base.js"></script>
+  <script src="../resources.js"></script>
+</body>
+</html>

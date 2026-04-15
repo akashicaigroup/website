@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Ignition | Audit + Real AI Agent Deployment - Akashic Intelligence</title>
+  <link rel="stylesheet" href="../assets/base.css">
+  <link rel="stylesheet" href="../assets/ai-ignition.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="page-transition"></div>
+
+  <header id="header">
+    <div class="container">
+      <nav>
+        <a href="../index.html" class="logo">Akashic Intelligence Group</a>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay">
+    <button class="menu-close" id="menuClose">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="menu-overlay-content">
+      <div class="menu-overlay-links">
+        <a href="../index.html" class="menu-overlay-link">Home</a>
+        <a href="ai-strategy.html" class="menu-overlay-link">AI Blueprint</a>
+        <a href="ai-implementation.html" class="menu-overlay-link">AI Implementation</a>
+        <a href="ai-advisory.html" class="menu-overlay-link">AI Advisory</a>
+        <a href="ai-ignition.html" class="menu-overlay-link">AI Ignition</a>
+        <a href="process.html" class="menu-overlay-link">Process</a>
+        <a href="about.html" class="menu-overlay-link">About</a>
+        <a href="resources.html" class="menu-overlay-link">Resources</a>
+        <a href="contact.html" class="menu-overlay-link">Contact</a>
+      </div>
+      <div class="menu-overlay-footer">
+        <p>hello@akashicintelligence.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="service-hero">
+      <div class="container">
+        <div class="service-hero-content">
+          <div class="service-tag">AI START + REAL RESULTS</div>
+          <h1 class="service-title">AI IGNITION</h1>
+          <p class="service-headline">Deep Audit + Real AI Agents Deployed in 3–4 Weeks</p>
+          <p class="service-subtitle">Not just recommendations. Get a full AI diagnosis plus 2–3 production-ready agents working in your business from week one.</p>
+          
+          <div class="hero-cta-group">
+            <a href="contact.html" class="btn-primary btn-large">Start AI Ignition →</a>
+            <a href="#impact" class="btn-ghost btn-large">See Real Impact</a>
+          </div>
+
+          <div class="hero-trust">
+            <p>Delivered in 3–4 weeks • First ROI visible within 30 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-grid-overlay"></div>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">THE PROBLEM</h2>
+        <div class="service-text-block">
+          <p>Most companies are stuck between two worlds: paying for consulting that only delivers slides and vague recommendations, or trying to implement AI themselves and wasting months (and money) on experiments that don’t work.</p>
+          <p class="text-emphasis">You want real results fast — without the risk or cost of a large-scale project.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT IT IS -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">WHAT IS AI IGNITION</h2>
+        <div class="service-text-block">
+          <p>AI Ignition is our strategic kickstart program: a deep AI maturity audit combined with the actual design, build, and deployment of 2–3 high-impact AI agents.</p>
+          <p>It’s the perfect bridge between “idea” and “real results.” The ideal first step before committing to a full Blueprint, large Implementation, or monthly Advisory.</p>
+        </div>
+        
+        <div class="service-columns">
+          <div class="service-column">
+            <h3 class="column-title">What’s included:</h3>
+            <ul class="service-list">
+              <li>Full AI Maturity & Readiness Assessment</li>
+              <li>Process mapping and prioritization of high-impact opportunities</li>
+              <li>Detailed technical design of priority agents</li>
+              <li>Actual build and deployment of 2–3 production-ready agents</li>
+              <li>Basic integrations with your existing tools</li>
+              <li>Testing, documentation, and team training</li>
+              <li>Updated 90-Day Action Roadmap with clear next steps</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 class="column-title">Perfect for companies that:</h3>
+            <ul class="service-list">
+              <li>Want tangible AI results in under a month</li>
+              <li>Want to test the real value of AI before making bigger investments</li>
+              <li>Need quick wins to build internal buy-in</li>
+              <li>Want to start building their AI-powered operations immediately</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="service-section" id="impact">
+      <div class="container">
+        <h2 class="section-title">REAL IMPACT IN 3–4 WEEKS</h2>
+        <div class="service-text-block">
+          <p>Clients who complete AI Ignition typically see measurable results fast:</p>
+        </div>
+
+        <div class="agents-table">
+          <div class="agent-row">
+            <div class="agent-name">Customer Support Agent</div>
+            <div class="agent-desc">Handles common inquiries 24/7 using your knowledge base.</div>
+            <div class="agent-impact"><strong>Typical result:</strong> 40-60% reduction in human-handled tickets</div>
+          </div>
+          <div class="agent-row">
+            <div class="agent-name">Sales SDR Agent</div>
+            <div class="agent-desc">Qualifies leads and books meetings automatically.</div>
+            <div class="agent-impact"><strong>Typical result:</strong> 2–3x more qualified leads</div>
+          </div>
+          <div class="agent-row">
+            <div class="agent-name">Operations / Accounting Agent</div>
+            <div class="agent-desc">Automates invoice processing or task tracking.</div>
+            <div class="agent-impact"><strong>Typical result:</strong> 15–25 hours saved per week</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">HOW IT WORKS</h2>
+        <p class="section-subtitle">Clear 4-week process.</p>
+        
+        <div class="process-timeline">
+          <div class="process-phase">
+            <div class="phase-num">Week 1</div>
+            <h3>Diagnosis & Prioritization</h3>
+            <p>Deep audit + selection of the 2–3 agents with highest immediate ROI.</p>
+          </div>
+          <div class="process-phase">
+            <div class="phase-num">Weeks 2–3</div>
+            <h3>Build & Deployment</h3>
+            <p>Technical design + development + integrations + rigorous testing.</p>
+          </div>
+          <div class="process-phase">
+            <div class="phase-num">Week 4</div>
+            <h3>Delivery & Roadmap</h3>
+            <p>Agents live in production + team training + 90-day roadmap + final review session.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INVESTMENT -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">INVESTMENT</h2>
+        <div class="service-text-block">
+          <p class="text-emphasis" style="font-size: 2.2rem; margin: 2rem 0;">
+            $2,997 – $6,997
+          </p>
+          <p>Fixed price based on company size and integration complexity.<br>
+          Payment: 50% upfront • 50% upon successful agent deployment.</p>
+          <p class="text-emphasis">Most clients recover their investment within 60–90 days.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO IT IS FOR -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">WHO THIS IS FOR</h2>
+        <div class="service-columns">
+          <div class="service-column">
+            <h3 class="column-title">This is ideal if you:</h3>
+            <ul class="service-list">
+              <li>Want real AI results in under a month</li>
+              <li>Want to prove ROI before committing to larger projects</li>
+              <li>Need quick wins to gain internal support</li>
+              <li>Are ready to start building your AI operations now</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 class="column-title">This is not for you if:</h3>
+            <ul class="service-list">
+              <li>You only want a document or theoretical recommendations</li>
+              <li>You need 10+ agents built from day one</li>
+              <li>You prefer to do everything 100% in-house with no external help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">How many agents will be built?</button>
+            <div class="faq-answer"><p>Usually 1–3 high-priority agents. We select the ones with the biggest impact and fastest implementation time.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Do I need the Blueprint first?</button>
+            <div class="faq-answer"><p>No. AI Ignition works as a standalone entry point. Many clients later move into the full Blueprint or Implementation.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What happens after the 4 weeks?</button>
+            <div class="faq-answer"><p>You receive a clear 90-day roadmap. You can continue with us via full Implementation or monthly AI Advisory.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Will the agents integrate with my current tools?</button>
+            <div class="faq-answer"><p>Yes. We integrate with your CRM, email, Slack, ERP, Google Workspace, Shopify, or any other tools you use.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="service-cta">
+      <div class="container">
+        <h2>IGNITE YOUR AI OPERATIONS</h2>
+        <div class="cta-steps">
+          <div class="cta-step">
+            <div class="step-num">1</div>
+            <h3>Free Discovery Call</h3>
+            <p>We review your operations and confirm if AI Ignition is the right starting point.</p>
+          </div>
+          <div class="cta-step">
+            <div class="step-num">2</div>
+            <h3>Proposal within 24 hours</h3>
+            <p>Exact price and proposed agents based on your business.</p>
+          </div>
+          <div class="cta-step">
+            <div class="step-num">3</div>
+            <h3>Live Agents in 3–4 weeks</h3>
+            <p>Real results starting from month one.</p>
+          </div>
+        </div>
+        <a href="contact.html" class="btn-primary btn-large">Book Your Discovery Call →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3 class="footer-logo">AKASHIC INTELLIGENCE</h3>
+          <p>AI operations architecture for companies that execute.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="ai-strategy.html">AI Blueprint</a></li>
+            <li><a href="ai-implementation.html">AI Implementation</a></li>
+            <li><a href="ai-advisory.html">AI Advisory</a></li>
+            <li><a href="ai-ignition.html">AI Ignition</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Get in touch</a></li>
+            <li><a href="mailto:hello@akashicintelligence.com">hello@akashicintelligence.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Akashic Intelligence. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../functions/script.js"></script>
+  <script src="../functions/base.js"></script>
+</body>
+</html>

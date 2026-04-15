@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Implementation | Build Your AI Operations - Akashic Intelligence</title>
+  <link rel="stylesheet" href="../assets/base.css">
+  <link rel="stylesheet" href="../assets/ai-implementation.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="page-transition"></div>
+
+  <header id="header">
+    <div class="container">
+      <nav>
+        <a href="../index.html" class="logo">Akashic Intelligence Group</a>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay">
+    <button class="menu-close" id="menuClose">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="menu-overlay-content">
+      <div class="menu-overlay-links">
+        <a href="../index.html" class="menu-overlay-link">Home</a>
+        <a href="ai-strategy.html" class="menu-overlay-link">AI Blueprint</a>
+        <a href="ai-implementation.html" class="menu-overlay-link">AI Implementation</a>
+        <a href="ai-advisory.html" class="menu-overlay-link">AI Advisory</a>
+        <a href="process.html" class="menu-overlay-link">Process</a>
+        <a href="about.html" class="menu-overlay-link">About</a>
+        <a href="resources.html" class="menu-overlay-link">Resources</a>
+        <a href="contact.html" class="menu-overlay-link">Contact</a>
+      </div>
+      <div class="menu-overlay-footer">
+        <p>hello@akashicintelligence.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO PREMIUM -->
+    <section class="service-hero">
+      <div class="container">
+        <div class="service-hero-content">
+          <div class="service-tag">AI EXECUTION</div>
+          <h1 class="service-title">AI OPERATIONS<br>IMPLEMENTATION</h1>
+          <p class="service-headline">From detailed blueprint to fully autonomous AI operations.<br>We don’t just advise — we build and ship production-grade systems.</p>
+          <p class="service-subtitle">Your custom AI agents, deeply integrated with your tools, running 24/7 with measurable ROI from week one.</p>
+          
+          <div class="hero-cta-group">
+            <a href="contact.html" class="btn-primary btn-large">Book a discovery call →</a>
+            <a href="#impact" class="btn-ghost btn-large">See real results</a>
+          </div>
+
+          <div class="hero-trust">
+            <p>Trusted by fast-growing companies • Average payback: <span class="accent">4.2 months</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-grid-overlay"></div>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">THE PROBLEM</h2>
+        <div class="service-text-block">
+          <p>Having a great blueprint is not enough. Many companies receive detailed specifications but then get stuck: they don’t know how to start building, how to integrate the agents with their existing tools, or how to make sure everything works reliably in production.</p>
+          <p>They try to implement it internally or hire freelancers and end up with broken agents, failed integrations, or costs that spiral out of control. Months wasted and frustration guaranteed.</p>
+          <p class="text-emphasis">The AI Operations Implementation exists so you don’t have to figure it out alone. We build the entire system based on your custom Blueprint.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT IT IS -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">WHAT IT IS</h2>
+        <div class="service-text-block">
+          <p>The Implementation is the execution service where we take your AI Operations Blueprint and build, integrate, test, and launch every agent into your live operations. It is 100% custom and follows the exact technical specifications delivered in the Blueprint.</p>
+          <p>This is not generic consulting. This is real construction: live agents, automated workflows, and a system that starts generating ROI from the first month.</p>
+        </div>
+        
+        <div class="service-columns">
+          <div class="service-column">
+            <h3 class="column-title">What’s included:</h3>
+            <ul class="service-list">
+              <li>Full development of all agents defined in your Blueprint</li>
+              <li>Real integrations with your current tech stack (CRM, ERP, email, Slack, accounting, etc.)</li>
+              <li>Advanced prompt engineering, tools, memory, and agent-to-agent workflows</li>
+              <li>Comprehensive testing, error handling, and human-in-the-loop logic</li>
+              <li>Production deployment and initial monitoring</li>
+              <li>Team training and operation documentation</li>
+              <li>30-60 days of post-launch support</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 class="column-title">What it’s not:</h3>
+            <ul class="service-list">
+              <li>Just the design (that’s the Blueprint)</li>
+              <li>A generic tool or template</li>
+              <li>Basic AI training</li>
+              <li>Partial or “quick & dirty” implementation</li>
+              <li>Consulting without a working system</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="service-section" id="impact">
+      <div class="container">
+        <h2 class="section-title">REAL-WORLD IMPACT</h2>
+        <div class="service-text-block">
+          <p>Once implemented, your operations run with autonomous agents handling priority processes with minimal human intervention. Typical results from clients who complete both Blueprint + Implementation:</p>
+        </div>
+
+        <div class="agents-table">
+          <div class="agent-row">
+            <div class="agent-name">Autonomous Sales Agent (SDR)</div>
+            <div class="agent-desc">Works 24/7 responding to leads, qualifying them, and booking meetings automatically.</div>
+            <div class="agent-impact"><strong>Typical result:</strong> 3x more qualified leads with response times in seconds instead of hours.</div>
+          </div>
+          <div class="agent-row">
+            <div class="agent-name">AI Customer Support Agent</div>
+            <div class="agent-desc">Handles the majority of support queries using your knowledge base, escalates only when needed, and operates across all channels.</div>
+            <div class="agent-impact"><strong>Typical result:</strong> 40-60% reduction in support costs and 24/7 coverage.</div>
+          </div>
+          <div class="agent-row agent-custom">
+            <div class="agent-name">All agents from your Blueprint</div>
+            <div class="agent-desc">Built exactly to the technical specifications designed for your business.</div>
+            <div class="agent-impact"><strong>Result:</strong> Higher efficiency, lower costs, and real operational scalability.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">HOW IT WORKS</h2>
+        <p class="section-subtitle">Clear 4-phase process. Typical timeline: 4-12 weeks depending on the number of agents and integration complexity.</p>
+        
+        <div class="process-timeline">
+          <div class="process-phase">
+            <div class="phase-num">Phase<br>1</div>
+            <h3>Preparation & Setup</h3>
+            <p>We review your delivered Blueprint, set up the technical environment (APIs, security, credentials), and prioritize Quick Wins for fast results.</p>
+          </div>
+          <div class="process-phase">
+            <div class="phase-num">Phase<br>2</div>
+            <h3>Agent Development</h3>
+            <p>We build every agent according to the technical specs: advanced prompts, tools, decision logic, memory systems, and agent-to-agent communication.</p>
+          </div>
+          <div class="process-phase">
+            <div class="phase-num">Phase<br>3</div>
+            <h3>Integrations & Testing</h3>
+            <p>We connect the agents to your existing systems, run extensive testing (including edge cases and failure scenarios), and refine based on your feedback.</p>
+          </div>
+          <div class="process-phase">
+            <div class="phase-num">Phase<br>4</div>
+            <h3>Launch & Optimization</h3>
+            <p>Production deployment, team training, initial monitoring, and full handover. Includes 30-60 days of reactive support and performance tuning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERABLES -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">WHAT YOU RECEIVE</h2>
+        <div class="service-text-block">
+          <p>At the end of the project, you have a fully functional, production-ready AI system that delivers immediate value.</p>
+        </div>
+        
+        <div class="deliverables-grid">
+          <div class="deliverable-card">
+            <div class="deliverable-num">01</div>
+            <h3>Live AI Agents in Production</h3>
+            <p>All agents from your Blueprint fully built, tested, and running in your environment.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">02</div>
+            <h3>Complete Integrations</h3>
+            <p>Bidirectional connections with your CRM, ERP, email, databases, and other tools.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">03</div>
+            <h3>Technical Documentation & Runbooks</h3>
+            <p>How each agent works, how to monitor it, and how to maintain or scale it.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">04</div>
+            <h3>Monitoring Dashboard</h3>
+            <p>Real-time visibility into performance, costs, errors, and KPIs for every agent.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">05</div>
+            <h3>Team Training & Handover</h3>
+            <p>Training sessions so your team can supervise, maintain, and evolve the system.</p>
+          </div>
+          <div class="deliverable-card">
+            <div class="deliverable-num">06</div>
+            <h3>Post-Implementation Support</h3>
+            <p>30-60 days included for fixes, optimizations, and adjustments based on real-world performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INVESTMENT -->
+    <section class="service-section section-dark">
+      <div class="container">
+        <h2 class="section-title">INVESTMENT & ROI</h2>
+        <div class="service-text-block">
+          <p>Pricing depends on the number of agents and integration complexity. Typical range:</p>
+          <p class="text-emphasis">$12,000 – $120,000+ (fixed project fee)</p>
+          <p>Once you have the Blueprint, we can provide an exact fixed price with no surprises.</p>
+        </div>
+        <div class="service-text-block">
+          <p class="text-emphasis">Typical payback period: 3-6 months. Most clients recover the full investment within the first year through cost savings and productivity gains.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO IT IS FOR -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">WHO THIS IS FOR</h2>
+        <div class="service-columns">
+          <div class="service-column">
+            <h3 class="column-title">This is for you if:</h3>
+            <ul class="service-list">
+              <li>You have (or want) the AI Operations Blueprint</li>
+              <li>You want experts to build the full system for you</li>
+              <li>You don’t have an internal technical team or don’t want to pull them away from core work</li>
+              <li>You want fast, measurable results without experimentation</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 class="column-title">This is NOT for you if:</h3>
+            <ul class="service-list">
+              <li>You only want the design (choose the Blueprint only)</li>
+              <li>You prefer to build everything 100% in-house</li>
+              <li>You’re looking for a cheap, generic solution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">Do I need the Blueprint first before Implementation?</button>
+            <div class="faq-answer">
+              <p>Yes, it is highly recommended. The Blueprint provides the exact technical specifications we use to build. If you already have one (internal or from another provider), we can review it during the discovery call.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">How long does it take?</button>
+            <div class="faq-answer">
+              <p>Between 4 and 12 weeks, depending on the number of agents and integration complexity. Quick Wins are usually live within the first 3-4 weeks.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What if my processes change?</button>
+            <div class="faq-answer">
+              <p>Agents are built with flexibility in mind. We include post-launch support for adjustments. For major changes, we recommend a Blueprint refresh + partial re-implementation.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Do you offer ongoing maintenance?</button>
+            <div class="faq-answer">
+              <p>Yes. We offer monthly maintenance and continuous optimization plans (monitoring, model updates, new integrations, performance tuning, etc.).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="service-cta">
+      <div class="container">
+        <h2>READY TO BUILD YOUR AI SYSTEM?</h2>
+        <div class="cta-steps">
+          <div class="cta-step">
+            <div class="step-num">1</div>
+            <h3>Free discovery call</h3>
+            <p>We review your Blueprint (if you have it) or your current operations and estimate scope and ROI.</p>
+          </div>
+          <div class="cta-step">
+            <div class="step-num">2</div>
+            <h3>Detailed proposal within 48 hours</h3>
+            <p>Exact scope, timeline, fixed price, and prioritized agents.</p>
+          </div>
+          <div class="cta-step">
+            <div class="step-num">3</div>
+            <h3>We build and launch</h3>
+            <p>In just a few weeks you’ll have live agents working in your business.</p>
+          </div>
+        </div>
+        <a href="contact.html" class="btn-primary btn-large">Book a discovery call →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3 class="footer-logo">AKASHIC INTELLIGENCE</h3>
+          <p>AI operations architecture for companies that execute.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="ai-strategy.html">AI Strategy (Blueprint)</a></li>
+            <li><a href="ai-implementation.html">AI Implementation</a></li>
+            <li><a href="ai-advisory.html">AI Advisory</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Get in touch</a></li>
+            <li><a href="mailto:hello@akashicintelligence.com">hello@akashicintelligence.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Akashic Intelligence. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../functions/script.js"></script>
+</body>
+</html>

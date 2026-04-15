@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Process - Akashic Intelligence Group</title>
+  <link rel="stylesheet" href="../assets/base.css">
+  <link rel="stylesheet" href="../assets/process.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="page-transition"></div>
+
+  <header id="header">
+    <div class="container">
+      <nav>
+        <a href="../index.html" class="logo">Akashic Intelligence Group</a>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay">
+    <button class="menu-close" id="menuClose">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <div class="menu-overlay-content">
+      <div class="menu-overlay-links">
+        <a href="index.html" class="menu-overlay-link">Home</a>
+        <a href="ai-strategy.html" class="menu-overlay-link">AI Blueprint</a>
+        <a href="process.html" class="menu-overlay-link">Process</a>
+        <a href="about.html" class="menu-overlay-link">About</a>
+        <a href="resources.html" class="menu-overlay-link">Resources</a>
+        <a href="contact.html" class="menu-overlay-link">Contact</a>
+      </div>
+      <div class="menu-overlay-footer">
+        <p>hello@akashicintelligence.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="eyebrow scramble-text" data-text="Our Process">Our Process</div>
+          <h1>We don't guess. We diagnose.</h1>
+          <p>From AI-curious to AI-native in four phases.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">01</div>
+            <div class="timeline-content">
+              <h3>Diagnose</h3>
+              <div class="timeline-duration">2-4 weeks</div>
+              <p>We audit your reality: operations, data infrastructure, team capabilities, and constraints. No assumptions.</p>
+              <ul>
+                <li>Stakeholder interviews across departments</li>
+                <li>Data and systems architecture review</li>
+                <li>Process mapping and bottleneck identification</li>
+                <li>Competitive and market analysis</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">02</div>
+            <div class="timeline-content">
+              <h3>Blueprint</h3>
+              <div class="timeline-duration">2-4 weeks</div>
+              <p>Your custom AI strategy. We identify the highest-leverage opportunities and architect the solution.</p>
+              <ul>
+                <li>Opportunity prioritization matrix</li>
+                <li>Technical architecture design</li>
+                <li>Vendor/tool evaluation and selection</li>
+                <li>ROI modeling and risk assessment</li>
+                <li>Implementation roadmap with milestones</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">03</div>
+            <div class="timeline-content">
+              <h3>Build</h3>
+              <div class="timeline-duration">3-6 months</div>
+              <p>We implement your pilot system. Custom development or strategic integration — whatever your reality requires.</p>
+              <ul>
+                <li>Agile development sprints</li>
+                <li>Data pipeline construction</li>
+                <li>Model training or fine-tuning</li>
+                <li>Integration with existing systems</li>
+                <li>Testing and validation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">04</div>
+            <div class="timeline-content">
+              <h3>Transfer</h3>
+              <div class="timeline-duration">Ongoing</div>
+              <p>You own it. We train your team, document everything, and ensure you're independent. We stay available for optimization.</p>
+              <ul>
+                <li>Team training and upskilling</li>
+                <li>Documentation and runbooks</li>
+                <li>Knowledge transfer sessions</li>
+                <li>Governance framework setup</li>
+                <li>Optional ongoing support retainer</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <h2 class="reveal-text">Ready to diagnose your reality?</h2>
+        <p class="reveal-text">The first step is always a conversation.</p>
+        <a href="contact.html" class="btn btn-primary magnetic">Start the conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Akashic Intelligence Group</div>
+        <div class="footer-links">
+          <a href="ai-strategy.html">AI Blueprint</a>
+          <a href="process.html">Process</a>
+          <a href="about.html">About</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-copy">&copy; <span id="year"></span> Akashic Intelligence Group</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../base.js"></script>
+  <script src="../process.js"></script>
+</body>
+</html>
